@@ -1,0 +1,122 @@
+﻿@model IEnumerable<Library_project.Models.Book>
+@{
+    ViewBag.Title = "ShowBooks";
+}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        if (ViewBag.message == "You can't borrow this book" || ViewBag.message == "You can't Read this book") {
+            $("#myModal").modal('show');
+        }
+    });
+</script>
+
+<h2>ShowBooks</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ISBN)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Author)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.publisher)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PublishingDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NoOfCopy)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pages)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ShelfNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsNewArrived)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Category)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ISBN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Author)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.publisher)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PublishingDate)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.NoOfCopy)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.Pages)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.ShelfNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.IsNewArrived)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.Category)
+            </td>
+            <td>
+                @Html.ActionLink("Borrow Book", "BorrowBooks","Member", new { id = item.ISBN }, new { @class = "btn btn-primary",@id="borrowBook"})
+                @Html.ActionLink("Read Book", "ReadBooks","Member", new { id = item.ISBN }, new { @class = "btn btn-primary"})
+                
+            </td>
+
+        </tr>
+    }
+
+</table>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Borrow Book</h4>
+                </div>
+                <div class="modal-body">
+                    <p>You can't borrow this book.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+

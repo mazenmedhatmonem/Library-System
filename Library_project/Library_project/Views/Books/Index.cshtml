@@ -1,0 +1,124 @@
+﻿@model IEnumerable<Library_project.Models.Book>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Ajax.BeginForm("FindBook", "Books", new AjaxOptions() { UpdateTargetId = "listbody", InsertionMode = InsertionMode.Replace }, new { @id = "FormAjax" }))
+{
+    <select name="option">
+        <option value="0" selected>Name</option>
+        <option value="1">Author</option>
+        <option value="2">Publisher</option>
+    </select>
+    <input type="text" placeholder="Search For A Book ..." oninput="$('#FormAjax').submit()" name="value" />
+}
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Author)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.publisher)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PublishingDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Edition)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pages)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NoOfCopy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Available)
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.ShelfNumber)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.IsNewArrived)
+                </th>*@
+            <th></th>
+        </tr>
+    </thead>
+
+
+    <tbody id="listbody">
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Author)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.publisher)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PublishingDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Edition)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pages)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NoOfCopy)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Available)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ShelfNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsNewArrived)
+                </td>
+                <td>
+                    @if (ViewBag.Role == "Employee")
+                    {
+                        @Html.ActionLink("Edit", "Edit", new { id = item.ISBN }) 
+                        @Html.ActionLink("Details", "Details", new { id = item.ISBN }) 
+                        @Html.ActionLink("Delete", "Delete", new { id = item.ISBN })
+                    }
+                    else if (ViewBag.Role == "Member")
+                    {
+                        @Html.ActionLink("Borrow Book", "BorrowBooks", "Member", new { id = item.ISBN }, new { @class = "btn btn-primary", @id = "borrowBook" })
+                        @Html.ActionLink("Read Book", "ReadBooks", "Member", new { id = item.ISBN }, new { @class = "btn btn-primary" })
+                    }
+
+                    
+                </td>
+            </tr>
+        }
+    <tbody id="listbody">
+
+</table>
+
+@section Scripts{
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+}

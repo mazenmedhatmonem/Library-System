@@ -1,0 +1,30 @@
+﻿@model Library_project.Models.Worker
+@{
+    ViewBag.Title = "ShowProfile";
+}
+
+<h2>ShowProfile</h2>
+
+<div class="card" style="width: 18rem;">
+    <img src="~/@Model.Photo" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title" style="color:#7a9ed3">Profile Info</h5>
+        <p class="card-text"></p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item" style="color:#dc0c0c">First Name :  @Model.FirstName</li>
+        <li class="list-group-item" style="color:#dc0c0c">Last Name :  @Model.LastName</li>
+        <li class="list-group-item" style="color:#dc0c0c">BirthDate  :  @Model.Birthdate</li>
+        <li class="list-group-item" style="color:#dc0c0c">HireDate :  @Model.HireDate</li>
+        <li class="list-group-item" style="color:#dc0c0c">Salary :  @Model.Salary</li>
+        <li class="list-group-item" style="color:#dc0c0c">Address :  @Model.Address</li>
+        <li class="list-group-item" style="color:#dc0c0c">Phone :  @Model.Phone</li>
+    </ul>
+    <div class="card-body">
+        @Html.ActionLink("Update Profile", "UpdateProfile", new { id = Model.WorkerID }, new { })
+        
+    </div>
+</div>
+
+  
+            

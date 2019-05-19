@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Library_project.Models.Member>
+@{
+    ViewBag.Title = "ReturnMembers";
+}
+
+<h2>ReturnMembers</h2>
+
+
+<div>
+    @Html.ActionLink("Show Your Profile", "ShowProfile")
+</div>
+
+@using (Ajax.BeginForm("findMember", "Employee", new AjaxOptions() { UpdateTargetId = "listbody", InsertionMode = InsertionMode.Replace }, new { @id = "FormAjax" }))
+{
+    <select name="option">
+        <option value="0" selected>Name</option>
+        <option value="1">Email</option>
+    </select>
+    <input type="text" placeholder="Search For A Member ..." oninput="$('#FormAjax').submit()" name="value" />
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>phone</th>
+            <th>Birthday</th>
+            <th>Address</th>
+            <th>Options</th>
+        </tr>
+    </thead>
+    <tbody id="listbody">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.Phone</td>
+                <td>@item.Birthdate</td>
+                <td>@item.Address</td>
+                <td>
+                    @if (ViewBag.State != null && ViewBag.State == "validate")
+                    {
+                        <a href="/Employee/Validate/@item.MemberID"
+                           class="btn btn-success ">Validate This Member</a>
+                    }
+
+                    <a href="/Account/Delete/@item.MemberID"
+                       class="btn btn-danger" onclick="return confirm('sure you want to delete?')">Delete This Member</a>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts{
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+}

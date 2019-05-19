@@ -1,0 +1,159 @@
+E:\ITI\MVC\Library_project\Library_project\bin\ApplicationInsights.config
+E:\ITI\MVC\Library_project\Library_project\bin\Library_project.dll.config
+E:\ITI\MVC\Library_project\Library_project\bin\Library_project.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Library_project.pdb
+E:\ITI\MVC\Library_project\Library_project\bin\Antlr3.Runtime.dll
+E:\ITI\MVC\Library_project\Library_project\bin\EntityFramework.dll
+E:\ITI\MVC\Library_project\Library_project\bin\EntityFramework.SqlServer.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.AI.Agent.Intercept.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.AI.DependencyCollector.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.AI.Web.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.AI.WindowsServer.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.ApplicationInsights.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.Owin.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.Owin.Security.Cookies.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.Owin.Security.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.Owin.Security.Facebook.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.Owin.Security.Google.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.Owin.Security.OAuth.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.Owin.Security.Twitter.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.Web.Infrastructure.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Newtonsoft.Json.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Owin.dll
+E:\ITI\MVC\Library_project\Library_project\bin\System.Web.Helpers.dll
+E:\ITI\MVC\Library_project\Library_project\bin\System.Web.Mvc.dll
+E:\ITI\MVC\Library_project\Library_project\bin\System.Web.Optimization.dll
+E:\ITI\MVC\Library_project\Library_project\bin\System.Web.Razor.dll
+E:\ITI\MVC\Library_project\Library_project\bin\System.Web.WebPages.Deployment.dll
+E:\ITI\MVC\Library_project\Library_project\bin\System.Web.WebPages.dll
+E:\ITI\MVC\Library_project\Library_project\bin\System.Web.WebPages.Razor.dll
+E:\ITI\MVC\Library_project\Library_project\bin\WebGrease.dll
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ITI\MVC\Library_project\Library_project\bin\System.Web.Helpers.xml
+E:\ITI\MVC\Library_project\Library_project\bin\System.Web.Mvc.xml
+E:\ITI\MVC\Library_project\Library_project\bin\System.Web.Optimization.xml
+E:\ITI\MVC\Library_project\Library_project\bin\System.Web.Razor.xml
+E:\ITI\MVC\Library_project\Library_project\bin\System.Web.WebPages.xml
+E:\ITI\MVC\Library_project\Library_project\bin\System.Web.WebPages.Deployment.xml
+E:\ITI\MVC\Library_project\Library_project\bin\System.Web.WebPages.Razor.xml
+E:\ITI\MVC\Library_project\Library_project\bin\Antlr3.Runtime.pdb
+E:\ITI\MVC\Library_project\Library_project\bin\Newtonsoft.Json.xml
+E:\ITI\MVC\Library_project\Library_project\bin\EntityFramework.xml
+E:\ITI\MVC\Library_project\Library_project\bin\EntityFramework.SqlServer.xml
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.Owin.xml
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.Owin.Security.xml
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.Owin.Security.Facebook.xml
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.Owin.Security.Cookies.xml
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.Owin.Security.OAuth.xml
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.Owin.Security.Google.xml
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.Owin.Security.Twitter.xml
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.ApplicationInsights.xml
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.AI.DependencyCollector.xml
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.AI.WindowsServer.xml
+E:\ITI\MVC\Library_project\Library_project\bin\Microsoft.AI.Web.xml
+E:\ITI\MVC\Library_project\Library_project\obj\Debug\Library_project.csproj.CoreCompileInputs.cache
+E:\ITI\MVC\Library_project\Library_project\obj\Debug\Library_project.dll
+E:\ITI\MVC\Library_project\Library_project\obj\Debug\Library_project.pdb
+E:\ITI\MVC\Library_project\Library_project\obj\Debug\Library_project.Migrations.ver1.resources
+E:\ITI\MVC\Library_project\Library_project\obj\Debug\Library_project.csproj.GenerateResource.Cache
+E:\ITI\MVC\Library_project\Library_project\obj\Debug\Library_project.Migrations.ver2.resources
+E:\ITI\MVC\Library_project\Library_project\obj\Debug\Library_project.Migrations.ver3.resources
+E:\ITI\MVC\Library_project\Library_project\obj\Debug\Library_project.Migrations.ver4.resources
+E:\ITI\MVC\Library_project\Library_project\obj\Debug\Library_project.csprojResolveAssemblyReference.cache
+E:\ITI\MVC\Library_project\Library_project\obj\Debug\Library_project.Migrations.ver5.resources
+E:\ITI\MVC\Library_project\Library_project\obj\Debug\Library_project.Migrations.ver6.resources
+E:\ITI\MVC\Library_project\Library_project\obj\Debug\Library_project.Migrations.ver61.resources
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\ApplicationInsights.config
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Library_project.dll.config
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Library_project.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Library_project.pdb
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Antlr3.Runtime.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\EntityFramework.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\EntityFramework.SqlServer.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.AI.Agent.Intercept.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.AI.DependencyCollector.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.AI.Web.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.AI.WindowsServer.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.ApplicationInsights.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.AspNet.Identity.Core.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.Owin.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.Owin.Security.Cookies.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.Owin.Security.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.Owin.Security.Facebook.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.Owin.Security.Google.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.Owin.Security.OAuth.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.Owin.Security.Twitter.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.Web.Infrastructure.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Newtonsoft.Json.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Owin.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\System.Web.Helpers.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\System.Web.Mvc.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\System.Web.Optimization.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\System.Web.Razor.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\System.Web.WebPages.Deployment.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\System.Web.WebPages.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\System.Web.WebPages.Razor.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\WebGrease.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\System.Web.Helpers.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\System.Web.Mvc.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\System.Web.Optimization.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\System.Web.Razor.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\System.Web.WebPages.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\System.Web.WebPages.Deployment.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\System.Web.WebPages.Razor.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Antlr3.Runtime.pdb
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Newtonsoft.Json.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\EntityFramework.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\EntityFramework.SqlServer.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.AspNet.Identity.Core.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.Owin.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.Owin.Security.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.Owin.Security.Facebook.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.Owin.Security.Cookies.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.Owin.Security.OAuth.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.Owin.Security.Google.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.Owin.Security.Twitter.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.ApplicationInsights.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.AI.DependencyCollector.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.AI.WindowsServer.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\bin\Microsoft.AI.Web.xml
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\obj\Debug\Library_project.csprojResolveAssemblyReference.cache
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\obj\Debug\Library_project.Migrations.ver1.resources
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\obj\Debug\Library_project.Migrations.ver2.resources
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\obj\Debug\Library_project.Migrations.ver3.resources
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\obj\Debug\Library_project.Migrations.ver4.resources
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\obj\Debug\Library_project.Migrations.ver5.resources
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\obj\Debug\Library_project.Migrations.ver6.resources
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\obj\Debug\Library_project.Migrations.ver61.resources
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\obj\Debug\Library_project.csproj.GenerateResource.Cache
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\obj\Debug\Library_project.dll
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\obj\Debug\Library_project.pdb
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\obj\Debug\Library_project.Migrations.v10.resources
+D:\ITI\Mvc\Project final 5\Library_project\Library_project\obj\Debug\Library_project.Migrations.v11.resources

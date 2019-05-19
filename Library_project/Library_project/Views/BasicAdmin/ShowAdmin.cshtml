@@ -1,0 +1,99 @@
+﻿@model IEnumerable<Library_project.Models.Worker>
+@{
+    ViewBag.Title = "ShowAdmin";
+}
+<script src="~/Scripts/bootstrap.js"></script>
+<h2>ShowAdmin</h2>
+<p>
+    
+    @*@Html.ActionLink("Create New Admin", "CreateAdmin")*@
+    @Html.ActionLink("Create New Admin", "CreateAdmin", new {id="Admin"},new {@class = "btn btn-primary"})
+  
+</p>
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Birthdate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HireDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Salary)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Photo)
+        </th>
+        <th>Operation</th>
+    </tr>
+
+@if (Model.Count() > 0)
+{
+    foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Birthdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HireDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.Phone)
+            </td>
+            @*<td>
+                @Html.DisplayFor(model => item.Photo)
+            </td>*@
+
+            <td>
+                <img src="~/@item.Photo" style="width:50px;height:50px" />
+            </td>
+
+            <td>
+                @Html.ActionLink("Edit Admin", "EditAdmin", new { id = item.WorkerID }, new { @class = "btn btn-info" })
+                @Html.ActionLink("Delete Admin", "Delete", "Account", new { id = item.WorkerID }, new { @class = "btn btn-danger" })
+            </td>
+
+        </tr>
+    }
+}
+
+else
+{
+    <tr>
+        <td colspan="9">
+
+            No Admins Found
+
+        </td>
+    </tr>
+}
+
+
+</table>
+
+

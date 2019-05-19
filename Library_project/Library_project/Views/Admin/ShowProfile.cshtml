@@ -1,0 +1,46 @@
+﻿@model Library_project.Models.Worker
+
+@{
+    ViewBag.Title = "ShowProfile";
+}
+
+<h2>ShowProfile</h2>
+
+<div>
+    @Html.DisplayNameFor(model => model.FirstName) :
+    @Html.DisplayFor(modelItem => modelItem.FirstName)
+</div>
+<div>
+    @Html.DisplayNameFor(model => model.LastName) :
+    @Html.DisplayFor(modelItem => modelItem.LastName)
+
+</div>
+<div>
+    @Html.DisplayNameFor(model => model.Birthdate) :
+    @Html.DisplayFor(modelItem => modelItem.Birthdate)
+</div>
+<div>
+    @Html.DisplayNameFor(model => model.HireDate) :
+    @Html.DisplayFor(modelItem => modelItem.HireDate)
+</div>
+<div>
+    @Html.DisplayNameFor(model => model.Salary) :
+    @Html.DisplayFor(modelItem => modelItem.Salary)
+</div>
+<div>
+    @Html.DisplayNameFor(model => model.Address) :
+    @Html.DisplayFor(modelItem => modelItem.Address)
+</div>
+<div>
+    @Html.DisplayNameFor(model => model.Phone) :
+    @Html.DisplayFor(modelItem => modelItem.Phone)
+</div>
+<div>
+    @Html.DisplayNameFor(model => model.Photo) :
+    @Html.DisplayFor(modelItem => modelItem.Photo)
+</div>
+
+
+@Html.ActionLink("Update Profile", "UpdateProfile", new { id = Model.WorkerID }, new { })
+
+

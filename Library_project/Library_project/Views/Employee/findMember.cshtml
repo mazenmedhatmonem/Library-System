@@ -1,0 +1,24 @@
+﻿
+@model IEnumerable<Library_project.Models.Member>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>@item.FirstName</td>
+        <td>@item.LastName</td>
+        <td>@item.Phone</td>
+        <td>@item.Birthdate</td>
+        <td>@item.Address</td>
+        <td>
+            @if (ViewBag.State != null && ViewBag.State == "validate")
+            {
+                <a href="/Employee/Validate/@item.MemberID"
+                   class="btn btn-success ">Validate This Member</a>
+            }
+
+            <a href="/Account/Delete/@item.MemberID"
+               class="btn btn-danger" onclick="return confirm('sure you want to delete?')">Delete This Member</a>
+        </td>
+
+    </tr>
+}

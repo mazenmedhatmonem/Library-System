@@ -1,0 +1,21 @@
+﻿@model Library_project.Models.AddViewModel
+
+@{
+    ViewBag.Title = "CreateAdmin";
+}
+
+<h2>CreateAdmin</h2>
+<div>
+    @using (Html.BeginForm("OperationAdmin", "BasicAdmin", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(a=>a.WorkerID)
+
+        @Html.LabelFor(a=>a.FirstName)
+        <br />
+        @Html.TextBoxFor(a=>a.FirstName)
+    }
+</div>
+
+
+

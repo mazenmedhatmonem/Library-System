@@ -1,0 +1,46 @@
+﻿
+@model IEnumerable<Library_project.Models.Book>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Category)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Author)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.publisher)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PublishingDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Edition)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pages)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NoOfCopy)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Available)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ShelfNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsNewArrived)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.ISBN }) |
+            @Html.ActionLink("Details", "Details", new { id = item.ISBN }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.ISBN })
+        </td>
+    </tr>
+}

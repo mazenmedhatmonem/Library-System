@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>BasicAdmin</h2>
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">@Html.ActionLink("Show Profile", "ShowProfile")</li>
+        <li class="breadcrumb-item">@Html.ActionLink("Show Admins", "ShowAdmin")</li>
+        <li class="breadcrumb-item">@Html.ActionLink("Show Employees", "ShowEmployee", "Admin")</li>
+        <li class="breadcrumb-item">@Html.ActionLink("Show Members", "ReturnMembers", "Employee")</li>
+
+    </ol>
+</nav>
+
+
+

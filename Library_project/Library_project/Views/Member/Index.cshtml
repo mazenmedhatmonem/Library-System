@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Member</h2>
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">@Html.ActionLink("Show Profile", "ShowProfile", new { })</li>
+
+        <li class="breadcrumb-item">@Html.ActionLink("New Arrived Books", "NewArrivedBooks", new { })</li>
+
+        <li class="breadcrumb-item">@Html.ActionLink("Search For Books", "Index", "Books", new { })</li>
+
+        <li class="breadcrumb-item">@Html.ActionLink("Show Reading Books", "ListReadingBooks", new { })</li>
+
+        <li class="breadcrumb-item">@Html.ActionLink("Show Borrowed Books", "ListBorrowedBooks", new { })</li>
+       
+        <li class="breadcrumb-item">@Html.ActionLink("Show Borrowed History", "HistoryBorrowed", new { })</li>
+
+        <li class="breadcrumb-item">@Html.ActionLink("Show Read History", "HistoryRead", new { })</li>
+
+
+    </ol>
+</nav> 
+

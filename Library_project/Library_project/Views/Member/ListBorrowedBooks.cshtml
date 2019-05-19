@@ -1,0 +1,71 @@
+﻿@model  IEnumerable<Library_project.Models.Book>
+@{
+    ViewBag.Title = "ListBorrowedBooks";
+}
+
+<h2>ListBorrowedBooks</h2>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ISBN)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Author)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Edition)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Category)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pages)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.publisher)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PublishingDate)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ISBN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Author)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Edition)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.Pages)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.publisher)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.PublishingDate)
+            </td>
+            <td>
+                @Html.ActionLink("Return Borrowed Book", "ReturnBorrowedBook", "Member", new { id = item.ISBN }, new { @class = "btn btn-primary" })
+
+            </td>
+        </tr>
+    }
+
+</table>
+
